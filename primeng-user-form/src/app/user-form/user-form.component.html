@@ -1,0 +1,19 @@
+<form>
+    <div class="p-field">
+      <label for="firstName">First Name</label>
+      <input id="firstName" type="text" pInputText  placeholder="First Name" [(ngModel)]="user.firstName" name="firstName" />
+    </div>
+    <div class="p-field">
+      <label for="lastName">Last Name</label>
+      <input id="lastName" type="text" pInputText placeholder="Last Name" [(ngModel)]="user.lastName" name="lastName" />
+    </div>
+    <div class="p-field">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Email" pInputText [(ngModel)]="user.email" name="email" />
+    </div>
+    <div class="p-field">
+      <label for="phone">Phone</label>
+      <input id="phone" type="text" placeholder="Phone Number" pInputText [(ngModel)]="user.phone" name="phone" />
+    </div>
+    <button type="button" pButton pRipple label="Submit"> </button> 
+  </form>

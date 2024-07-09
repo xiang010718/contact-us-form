@@ -1,0 +1,24 @@
+.shops-container {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Distribute items evenly with space between them */
+  }
+  
+  .shop {
+    width: 48%; /* Adjust width of each shop item */
+    margin-bottom: 10px; /* Optional: Add margin between shops */
+    text-align: center
+  }
+  
+  .hotel-image {
+    width: 100%; /* Ensure image takes full width of its container */
+    overflow: hidden; /* Hide overflow if image is larger than container */
+  }
+  
+  .hotel-image img {
+    width: 100%; /* Make image fill its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  
+
+
